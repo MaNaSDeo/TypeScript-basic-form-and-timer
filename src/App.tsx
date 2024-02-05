@@ -1,5 +1,17 @@
+import AddTimer from "./components/AddTimer.tsx";
+import Header from "./components/Header.tsx";
+import Timers from "./components/Timers.tsx";
+
 function App() {
-  return <h1>Let's get started!</h1>;
+  return (
+    <>
+      <Header />
+      <main>
+        <AddTimer />
+        <Timers />
+      </main>
+    </>
+  );
 }
 
 export default App;
